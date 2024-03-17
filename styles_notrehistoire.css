@@ -1,26 +1,34 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 100;
-    padding-bottom: 400;
+    padding-top: 100px;
+    padding: 0;
     background-color: #f0f0f0;
 }
+
 header {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000; /* Ensure the header appears above other content */
 }
+
 nav {
     background-color: #444;
     color: #fff;
     padding: 10px;
     text-align: center;
+    position: fixed;
+    top: 120px; /* Adjust based on header height */
+    left: 0;
+    width: 100%;
 }
+
 nav a {
     color: #fff;
     text-decoration: none;
@@ -29,10 +37,29 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-section {
-    padding-bottom: 400px; /* Adjust the bottom padding as needed */
+
+h2 {
+    background-color: #333;
+    color: #fff;
     padding: 20px;
+    text-align: center;
 }
+
+.under-header {
+    padding: 69px;
+    max-width: 800px; /* Limit the width of the centered content */
+}
+.under-footer {
+    padding: 20px;
+    max-width: 800px; /* Limit the width of the centered content */
+}
+section {
+    padding: 20px;
+    text-align: center; /* Center the content */
+    margin: auto; /* Center horizontally */
+    max-width: 800px; /* Limit the width of the centered content */
+}
+
 footer {
     background-color: #333;
     color: #fff;
@@ -42,6 +69,13 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+
+
+
+
+
 
 
 
@@ -83,4 +117,15 @@ footer {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+
+
+.dot-list {
+    list-style-type: circle; /* Change bullet point style */
+    margin-left: 1px; /* Adjust margin to position the list to the left */
+}
+
+.dot-list li {
+    text-align: left; /* Align text within list items to the left */
 }

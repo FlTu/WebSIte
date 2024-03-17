@@ -1,38 +1,42 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 100;
-    padding-bottom: 400;
+    padding: 0;
     background-color: #f0f0f0;
 }
+
 header {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000; /* Ensure the header appears above other content */
 }
+
 nav {
     background-color: #444;
     color: #fff;
     padding: 10px;
     text-align: center;
 }
+
 nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
 }
+
 nav a:hover {
     text-decoration: underline;
 }
+
 section {
-    padding-bottom: 400px; /* Adjust the bottom padding as needed */
+    padding-bottom: 50px; /* Adjust the bottom padding as needed */
     padding: 20px;
+    text-align: center; /* Center the content */
+    margin: auto; /* Center horizontally */
+    max-width: 800px; /* Limit the width of the centered content */
 }
+
 footer {
     background-color: #333;
     color: #fff;
@@ -42,6 +46,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 
 
 
