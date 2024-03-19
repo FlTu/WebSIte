@@ -59,10 +59,19 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-section {
-    padding-bottom: 400px; /* Adjust the bottom padding as needed */
-    padding: 20px;
-    text-align:center;
+
+.modware-description {
+    padding-bottom: 200px; /* Adjust the bottom padding as needed */
+    padding-top: 20px;
+    padding-left: 50px;
+    text-align:left;
+}
+
+.pros-n-cons {
+    padding-bottom: 200px; /* Adjust the bottom padding as needed */
+    padding-top: 20px;
+    padding-right: 50px;
+    text-align:right;
 }
 footer {
     background-color: #333;
