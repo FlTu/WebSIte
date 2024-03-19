@@ -10,25 +10,54 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the header appears above other content */
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    position:fixed;
 }
+
+/* Style for ASCII art */
+#ascii-art {
+    font-family: monospace; /* Use a monospace font for ASCII art */
+    white-space: pre; /* Preserve whitespace */
+}
+.title-container {
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+}
+
+.title-container img {
+    width: 200px; /* Adjust the width of the image as needed */
+    height: 200px; /* Adjust the width of the image as needed */
+    margin-right: 10px; /* Adjust the margin between the image and text */
+}
+
+.title-container h1 {
+    margin: 0; /* Remove default margin */
+}
+
 
 nav {
     background-color: #444;
     color: #fff;
     padding: 10px;
     text-align: center;
+    position: fixed;
+    top: 240px; /* Adjust based on header height */
+    left: 0;
+    width: 100%;
 }
-
 nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
 }
-
 nav a:hover {
     text-decoration: underline;
 }
-
 section {
     padding-bottom: 50px; /* Adjust the bottom padding as needed */
     padding: 20px;
@@ -88,4 +117,13 @@ footer {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.under-header {
+    padding: 130px;
+    max-width: 800px; /* Limit the width of the centered content */
+}
+.under-footer {
+    padding: 20px;
+    max-width: 800px; /* Limit the width of the centered content */
 }

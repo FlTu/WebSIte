@@ -10,6 +10,7 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    position:fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -44,6 +45,11 @@ nav {
     color: #fff;
     padding: 10px;
     text-align: center;
+    position: fixed;
+    top: 240px; /* Adjust based on header height */
+    left: 0;
+    width: 100%;
+
 }
 nav a {
     color: #fff;
@@ -108,4 +114,13 @@ footer {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.under-header {
+    padding: 130px;
+    max-width: 800px; /* Limit the width of the centered content */
+}
+.under-footer {
+    padding: 20px;
+    max-width: 800px; /* Limit the width of the centered content */
 }
